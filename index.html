@@ -10,6 +10,25 @@
     </head>
     <body>
         <h1>Simple List of Tasks</h1>
+        <div class = "dropdown">
+            <p>Change Task Color</p>
+            <div class = "content">
+                <a onclick = "taskColor(0)" style = "background-color: lightblue;">
+                    Light Blue
+                </a>
+                <br>
+                <a onclick="taskColor(1)" style = "background-color: pink;">
+                    Pink
+                </a>
+                <br>
+                <a onclick="taskColor(2)" style = "background-color: yellow;">
+                    Yellow
+                </a>
+                <a onclick="taskColor(3)" style = "background-color: #CCCCFF;">
+                    Periwinkle
+                </a>
+            </div>
+        </div>
         <input id = "task">
         <button onclick="addTask()">Add Task</button>
     </body>
